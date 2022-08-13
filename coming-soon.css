@@ -22,11 +22,14 @@ html{
    background-color: #fff;
    -webkit-text-size-adjust: none;
    font-family: "Roboto", sans-serif;
+}
+
+
+body{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img/vika-wendish--SE2XM3_IYc-unsplash.jpg');
-   
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img/vika-wendish--SE2XM3_IYc-unsplash.jpg'); 
 }
 
 h1{
