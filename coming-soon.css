@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-tap-highlight-color: transparent !important;
+   outline: none !important;
+}
+
+html{
+   height: 100%;
+   color: #fff;
+   font-size: 0.65rem;
+   text-size-adjust: none;
+   letter-spacing: normal;
+   scroll-behavior: smooth;
+   background-color: #fff;
+   -webkit-text-size-adjust: none;
+   font-family: "Roboto", sans-serif;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img/vika-wendish--SE2XM3_IYc-unsplash.jpg');
+   
+}
+
+h1{
+   color: #100E09;
+   font-size: 2rem;
+   font-weight: 500;
+   font-family: 'Playfair Display', serif;
+}
+
+h2{
+   color: #100E09;
+   font-size: 1.9rem;
+   margin-top: 3rem;
+   font-weight: 500;
+   font-family: 'Playfair Display', serif;
+}
+
+h3{
+   color: #100E09;
+   font-size: 1.85rem;
+   font-weight: 500;
+   margin-top: 3rem;
+   font-family: 'Playfair Display', serif;
+}
+
+h4{
+   color: #100E09;
+   font-size: 1.75rem;
+   font-weight: 500;
+   margin-top: 3rem;
+   font-family: 'Playfair Display', serif;
+}
+
+h5{
+   color: #100E09;
+   font-size: 1.65rem;
+   font-weight: 500;
+   margin-top: 3rem;
+   font-family: 'Playfair Display', serif;
+}
+
+h6{
+   color: #100E09;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-top: 3rem;
+   font-family: 'Playfair Display', serif;
+}
+
+p{
+   font-size: 1.75rem;
+   display: block;
+   margin-bottom: 1em;
+   letter-spacing: 0.025rem;
+}
+
+body p:last-child{margin-bottom: 0em;}
+
+
+a{
+   display: block;
+   text-decoration: none;
+}
+
+.container{
+   max-width: 100rem;
+   margin: 0 auto;
+   padding: 0 2.2rem;
+}
+
+section{
+   padding-block: 4.5rem;
+   position: relative;
+}
+
+
+.first-head{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.first-head h1{
+   color: #fff;
+   font-size: 5rem;
+   font-weight: 600;
+   margin-bottom: 3rem;
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.love-chris{
+   color: #fff;
+   position: relative;
+   top: 3px;
+}
+
+/* CONTACT STYLES */
+input,
+button,
+textarea{
+   color: #fff;
+   font: inherit;
+   border: none;
+   outline: none;
+   background-color: transparent;
+}
+
+::placeholder{
+   color: #fff;
+   opacity: 1;
+}
+
+::-moz-placeholder{
+   color: #fff;
+   opacity: 1;
+}
+
+::-webkit-input-placeholder{
+   color: #fff;
+   opacity: 1;
+}
+
+.contact-us{
+   padding: 0;
+   margin: 0;
+}
+.contact-form{
+   display: block;
+   padding-top: 6rem;
+   flex-direction: column;
+}
+
+.contact-form input{
+   width: 100%;
+   color: #fff;
+   font-size: 1.5rem;
+   position: relative;
+   margin-bottom: 3rem;
+   border-bottom: 1px solid #fff;
+}
+
+.contact-form button{
+   display: flex;
+   color: #000;
+   font-size: 1.35rem;
+   padding: 1rem 1rem;  
+   margin: 5rem auto;
+   cursor: pointer;
+   position: relative;
+   align-content: center;
+   justify-content: center;
+   transition: opacity .5s;
+   text-transform: uppercase;
+   border: 1px solid #fff;
+   background-color: #fff;
+}
+
+.contact-form button:hover{
+   opacity: .7;
+
+}
+
+.input-group{
+   display: flex;
+   column-gap: 5rem;
+} 
