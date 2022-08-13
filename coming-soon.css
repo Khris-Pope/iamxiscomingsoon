@@ -100,6 +100,11 @@ a{
    padding: 0 2.2rem;
 }
 
+section, article{
+   padding-block: 2rem;
+   position: relative;
+}
+
 .coming-soon{
    position: relative;
    top: 0;
