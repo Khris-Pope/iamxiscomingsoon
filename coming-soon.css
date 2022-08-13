@@ -199,3 +199,9 @@ textarea{
    display: flex;
    column-gap: 5rem;
 } 
+
+
+@media screen and (max-width: 735px){
+    .input-group{
+      display: block;
+  }
