@@ -13,7 +13,6 @@
 }
 
 html{
-   min-height: 500px;
    color: #fff;
    font-size: 0.65rem;
    text-size-adjust: none;
@@ -21,12 +20,7 @@ html{
    scroll-behavior: smooth;
    background-color: #fff;
    -webkit-text-size-adjust: none;
-   font-family: "Roboto", sans-serif;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img/vika-wendish--SE2XM3_IYc-unsplash.jpg'); 
+   font-family: "Roboto", sans-serif; 
 }
 
 h1{
@@ -100,6 +94,15 @@ a{
 section, article{
    padding-block: 6rem;
    position: relative;
+}
+
+.back {
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img/vika-wendish--SE2XM3_IYc-unsplash.jpg');
 }
 
 .first-head{
