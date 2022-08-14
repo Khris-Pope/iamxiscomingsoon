@@ -22,10 +22,6 @@ html{
    background-color: #fff;
    -webkit-text-size-adjust: none;
    font-family: "Roboto", sans-serif;
-}
-
-
-body{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -103,12 +99,6 @@ a{
 section, article{
    padding-block: 6rem;
    position: relative;
-}
-
-.coming-soon{
-   position: relative;
-   top: 0;
-   bottom: 0;
 }
 
 .first-head{
